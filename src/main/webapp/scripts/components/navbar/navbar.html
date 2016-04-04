@@ -17,18 +17,52 @@
                         <span class="hidden-sm" translate="global.menu.home">Home</span>
                     </a>
                 </li>
+                <!-- Custom menu Transaksi-->
+                <li ui-sref-active="active" ng-switch-when="true" class="dropdown pointer">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="">
+                        <span>
+                            <span class="glyphicon glyphicon-th-list"></span>
+                            <span class="hidden-sm" translate="global.menu.penjaminan.main">
+                                Penjaminan
+                            </span>
+                            <b class="caret"></b>
+                        </span>
+                    </a>
+                </li>
                 <!-- jhipster-needle-add-element-to-menu - JHipster will add new menu items here -->
                 <li ui-sref-active="active" ng-switch-when="true" class="dropdown pointer">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="">
                         <span>
                             <span class="glyphicon glyphicon-th-list"></span>
                             <span class="hidden-sm" translate="global.menu.entities.main">
-                                Entities
+                                Referensi
                             </span>
                             <b class="caret"></b>
                         </span>
                     </a>
                     <ul class="dropdown-menu">
+                        <li ui-sref-active="active" ><a ui-sref="r_jenis_kelamin" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.r_jenis_kelamin">R jenis kelamin</span></a></li>
+                        <li ui-sref-active="active" ><a ui-sref="r_marital_status" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.r_marital_status">R marital status</span></a></li>
+                        <li ui-sref-active="active" ><a ui-sref="r_pendidikan" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.r_pendidikan">R pendidikan</span></a></li>
+                        <li ui-sref-active="active" ><a ui-sref="r_pekerjaan" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.r_pekerjaan">R pekerjaan</span></a></li>
+                        <li ui-sref-active="active" ><a ui-sref="r_is_linkage" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.r_is_linkage">R is linkage</span></a></li>
+                        <li ui-sref-active="active" ><a ui-sref="r_is_subsidized" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.r_is_subsidized">R is subsidized</span></a></li>
+                        <li ui-sref-active="active" ><a ui-sref="r_status_akad" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.r_status_akad">R status akad</span></a></li>
+                        <li ui-sref-active="active" ><a ui-sref="r_status_rekening" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.r_status_rekening">R status rekening</span></a></li>
+                        <li ui-sref-active="active" ><a ui-sref="r_skema" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.r_skema">R skema</span></a></li>
+                        <li ui-sref-active="active" ><a ui-sref="r_negara_tujuan" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.r_negara_tujuan">R negara tujuan</span></a></li>
+                        <li ui-sref-active="active" ><a ui-sref="r_kode_kolektibilitas" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.r_kode_kolektibilitas">R kode kolektibilitas</span></a></li>
                         <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
                     </ul>
                 </li>

@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "r_status_akad" : {
+            "home": {
+                "title": "R_status_akads",
+                "createLabel": "Créer un nouveau R_status_akad",
+                "createOrEditLabel": "Créer ou éditer un R_status_akad",
+                "search": "Search for R_status_akad"
+            },
+            "created": "Un nouveau R_status_akad a été créé avec l'identifiant {{ param }}",
+            "updated": "Le R_status_akad avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le R_status_akad avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le R_status_akad {{ id }} ?"
+            },
+            "detail": {
+                "title": "R_status_akad"
+            },
+            "id_r_status_akad": "Id_r_status_akad",
+            "uraian": "Uraian"
+        }
+    }
+}
+

@@ -1,0 +1,38 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="myR_jenis_kelaminLabel" translate="aplikasiApp.r_jenis_kelamin.home.createOrEditLabel">Create or edit a R_jenis_kelamin</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="r_jenis_kelamin.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="aplikasiApp.r_jenis_kelamin.id_r_jenis_kelamin" for="field_id_r_jenis_kelamin">Id_r_jenis_kelamin</label>
+            <input type="number" class="form-control" name="id_r_jenis_kelamin" id="field_id_r_jenis_kelamin"
+                    ng-model="r_jenis_kelamin.id_r_jenis_kelamin"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="aplikasiApp.r_jenis_kelamin.uraian" for="field_uraian">Uraian</label>
+            <input type="text" class="form-control" name="uraian" id="field_uraian"
+                    ng-model="r_jenis_kelamin.uraian"
+                     />
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || isSaving" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

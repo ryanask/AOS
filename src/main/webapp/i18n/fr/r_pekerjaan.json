@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "r_pekerjaan" : {
+            "home": {
+                "title": "R_pekerjaans",
+                "createLabel": "Créer un nouveau R_pekerjaan",
+                "createOrEditLabel": "Créer ou éditer un R_pekerjaan",
+                "search": "Search for R_pekerjaan"
+            },
+            "created": "Un nouveau R_pekerjaan a été créé avec l'identifiant {{ param }}",
+            "updated": "Le R_pekerjaan avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le R_pekerjaan avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le R_pekerjaan {{ id }} ?"
+            },
+            "detail": {
+                "title": "R_pekerjaan"
+            },
+            "id_r_pekerjaan": "Id_r_pekerjaan",
+            "uraian": "Uraian"
+        }
+    }
+}
+

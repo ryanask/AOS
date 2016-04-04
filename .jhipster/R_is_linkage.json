@@ -1,0 +1,19 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "id_r_is_linkage",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "uraian",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160404080144",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

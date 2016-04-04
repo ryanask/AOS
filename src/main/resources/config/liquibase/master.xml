@@ -5,5 +5,16 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
 
     <include file="classpath:config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160404074943_added_entity_R_jenis_kelamin.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160404075203_added_entity_R_marital_status.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160404075440_added_entity_R_pendidikan.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160404075528_added_entity_R_pekerjaan.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160404080144_added_entity_R_is_linkage.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160404080325_added_entity_R_is_subsidized.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160404080511_added_entity_R_status_akad.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160404080635_added_entity_R_status_rekening.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160404081100_added_entity_R_skema.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160404081230_added_entity_R_negara_tujuan.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160404081402_added_entity_R_kode_kolektibilitas.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
 </databaseChangeLog>

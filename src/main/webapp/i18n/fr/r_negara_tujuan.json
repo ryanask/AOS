@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "r_negara_tujuan" : {
+            "home": {
+                "title": "R_negara_tujuans",
+                "createLabel": "Créer un nouveau R_negara_tujuan",
+                "createOrEditLabel": "Créer ou éditer un R_negara_tujuan",
+                "search": "Search for R_negara_tujuan"
+            },
+            "created": "Un nouveau R_negara_tujuan a été créé avec l'identifiant {{ param }}",
+            "updated": "Le R_negara_tujuan avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le R_negara_tujuan avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le R_negara_tujuan {{ id }} ?"
+            },
+            "detail": {
+                "title": "R_negara_tujuan"
+            },
+            "id_r_negara_tujuan": "Id_r_negara_tujuan",
+            "uraian": "Uraian"
+        }
+    }
+}
+

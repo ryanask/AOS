@@ -1,0 +1,23 @@
+{
+    "aplikasiApp": {
+        "r_jenis_kelamin" : {
+            "home": {
+                "title": "R_jenis_kelamins",
+                "createLabel": "Create a new R_jenis_kelamin",
+                "createOrEditLabel": "Create or edit a R_jenis_kelamin",
+                "search": "Search for R_jenis_kelamin"
+            },
+            "created": "A new R_jenis_kelamin is created with identifier {{ param }}",
+            "updated": "A R_jenis_kelamin is updated with identifier {{ param }}",
+            "deleted": "A R_jenis_kelamin is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete R_jenis_kelamin {{ id }}?"
+            },
+            "detail": {
+                "title": "R_jenis_kelamin"
+            },
+            "id_r_jenis_kelamin": "Id_r_jenis_kelamin",
+            "uraian": "Uraian"
+        }
+    }
+}

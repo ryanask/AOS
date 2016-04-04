@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "r_status_rekening" : {
+            "home": {
+                "title": "R_status_rekenings",
+                "createLabel": "Créer un nouveau R_status_rekening",
+                "createOrEditLabel": "Créer ou éditer un R_status_rekening",
+                "search": "Search for R_status_rekening"
+            },
+            "created": "Un nouveau R_status_rekening a été créé avec l'identifiant {{ param }}",
+            "updated": "Le R_status_rekening avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le R_status_rekening avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le R_status_rekening {{ id }} ?"
+            },
+            "detail": {
+                "title": "R_status_rekening"
+            },
+            "id_r_status_rekening": "Id_r_status_rekening",
+            "uraian": "Uraian"
+        }
+    }
+}
+

@@ -7,6 +7,17 @@
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
                 "main": "Entités",
+                "r_jenis_kelamin": "R_jenis_kelamin",
+                "r_marital_status": "R_marital_status",
+                "r_pendidikan": "R_pendidikan",
+                "r_pekerjaan": "R_pekerjaan",
+                "r_is_linkage": "R_is_linkage",
+                "r_is_subsidized": "R_is_subsidized",
+                "r_status_akad": "R_status_akad",
+                "r_status_rekening": "R_status_rekening",
+                "r_skema": "R_skema",
+                "r_negara_tujuan": "R_negara_tujuan",
+                "r_kode_kolektibilitas": "R_kode_kolektibilitas",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

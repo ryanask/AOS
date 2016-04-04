@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "r_pendidikan" : {
+            "home": {
+                "title": "R_pendidikans",
+                "createLabel": "Créer un nouveau R_pendidikan",
+                "createOrEditLabel": "Créer ou éditer un R_pendidikan",
+                "search": "Search for R_pendidikan"
+            },
+            "created": "Un nouveau R_pendidikan a été créé avec l'identifiant {{ param }}",
+            "updated": "Le R_pendidikan avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le R_pendidikan avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le R_pendidikan {{ id }} ?"
+            },
+            "detail": {
+                "title": "R_pendidikan"
+            },
+            "id_r_pendidikan": "Id_r_pendidikan",
+            "uraian": "Uraian"
+        }
+    }
+}
+

@@ -1,0 +1,23 @@
+{
+    "aplikasiApp": {
+        "r_is_linkage" : {
+            "home": {
+                "title": "R_is_linkages",
+                "createLabel": "Create a new R_is_linkage",
+                "createOrEditLabel": "Create or edit a R_is_linkage",
+                "search": "Search for R_is_linkage"
+            },
+            "created": "A new R_is_linkage is created with identifier {{ param }}",
+            "updated": "A R_is_linkage is updated with identifier {{ param }}",
+            "deleted": "A R_is_linkage is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete R_is_linkage {{ id }}?"
+            },
+            "detail": {
+                "title": "R_is_linkage"
+            },
+            "id_r_is_linkage": "Id_r_is_linkage",
+            "uraian": "Uraian"
+        }
+    }
+}

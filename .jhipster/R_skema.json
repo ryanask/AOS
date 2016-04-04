@@ -1,0 +1,29 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "id_r_skema",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "uraian",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "max_plafon",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "max_tenor",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20160404081100",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

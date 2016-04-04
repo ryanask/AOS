@@ -1,0 +1,23 @@
+{
+    "aplikasiApp": {
+        "r_is_subsidized" : {
+            "home": {
+                "title": "R_is_subsidizeds",
+                "createLabel": "Create a new R_is_subsidized",
+                "createOrEditLabel": "Create or edit a R_is_subsidized",
+                "search": "Search for R_is_subsidized"
+            },
+            "created": "A new R_is_subsidized is created with identifier {{ param }}",
+            "updated": "A R_is_subsidized is updated with identifier {{ param }}",
+            "deleted": "A R_is_subsidized is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete R_is_subsidized {{ id }}?"
+            },
+            "detail": {
+                "title": "R_is_subsidized"
+            },
+            "id_r_is_subsidized": "Id_r_is_subsidized",
+            "uraian": "Uraian"
+        }
+    }
+}

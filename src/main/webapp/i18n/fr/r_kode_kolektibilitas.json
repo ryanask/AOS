@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "r_kode_kolektibilitas" : {
+            "home": {
+                "title": "R_kode_kolektibilitass",
+                "createLabel": "Créer un nouveau R_kode_kolektibilitas",
+                "createOrEditLabel": "Créer ou éditer un R_kode_kolektibilitas",
+                "search": "Search for R_kode_kolektibilitas"
+            },
+            "created": "Un nouveau R_kode_kolektibilitas a été créé avec l'identifiant {{ param }}",
+            "updated": "Le R_kode_kolektibilitas avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le R_kode_kolektibilitas avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le R_kode_kolektibilitas {{ id }} ?"
+            },
+            "detail": {
+                "title": "R_kode_kolektibilitas"
+            },
+            "id_r_kode_kolektibilitas": "Id_r_kode_kolektibilitas",
+            "uraian": "Uraian"
+        }
+    }
+}
+

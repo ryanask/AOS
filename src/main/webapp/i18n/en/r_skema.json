@@ -1,0 +1,25 @@
+{
+    "aplikasiApp": {
+        "r_skema" : {
+            "home": {
+                "title": "R_skemas",
+                "createLabel": "Create a new R_skema",
+                "createOrEditLabel": "Create or edit a R_skema",
+                "search": "Search for R_skema"
+            },
+            "created": "A new R_skema is created with identifier {{ param }}",
+            "updated": "A R_skema is updated with identifier {{ param }}",
+            "deleted": "A R_skema is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete R_skema {{ id }}?"
+            },
+            "detail": {
+                "title": "R_skema"
+            },
+            "id_r_skema": "Id_r_skema",
+            "uraian": "Uraian",
+            "max_plafon": "Max_plafon",
+            "max_tenor": "Max_tenor"
+        }
+    }
+}

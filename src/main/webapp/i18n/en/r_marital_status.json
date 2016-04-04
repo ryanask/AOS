@@ -1,0 +1,23 @@
+{
+    "aplikasiApp": {
+        "r_marital_status" : {
+            "home": {
+                "title": "R_marital_statuss",
+                "createLabel": "Create a new R_marital_status",
+                "createOrEditLabel": "Create or edit a R_marital_status",
+                "search": "Search for R_marital_status"
+            },
+            "created": "A new R_marital_status is created with identifier {{ param }}",
+            "updated": "A R_marital_status is updated with identifier {{ param }}",
+            "deleted": "A R_marital_status is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete R_marital_status {{ id }}?"
+            },
+            "detail": {
+                "title": "R_marital_status"
+            },
+            "id_r_marital_status": "Id_r_marital_status",
+            "uraian": "Uraian"
+        }
+    }
+}

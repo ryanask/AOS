@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "r_is_subsidized" : {
+            "home": {
+                "title": "R_is_subsidizeds",
+                "createLabel": "Créer un nouveau R_is_subsidized",
+                "createOrEditLabel": "Créer ou éditer un R_is_subsidized",
+                "search": "Search for R_is_subsidized"
+            },
+            "created": "Un nouveau R_is_subsidized a été créé avec l'identifiant {{ param }}",
+            "updated": "Le R_is_subsidized avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le R_is_subsidized avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le R_is_subsidized {{ id }} ?"
+            },
+            "detail": {
+                "title": "R_is_subsidized"
+            },
+            "id_r_is_subsidized": "Id_r_is_subsidized",
+            "uraian": "Uraian"
+        }
+    }
+}
+

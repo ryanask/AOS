@@ -1,0 +1,23 @@
+{
+    "aplikasiApp": {
+        "r_pendidikan" : {
+            "home": {
+                "title": "R_pendidikans",
+                "createLabel": "Create a new R_pendidikan",
+                "createOrEditLabel": "Create or edit a R_pendidikan",
+                "search": "Search for R_pendidikan"
+            },
+            "created": "A new R_pendidikan is created with identifier {{ param }}",
+            "updated": "A R_pendidikan is updated with identifier {{ param }}",
+            "deleted": "A R_pendidikan is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete R_pendidikan {{ id }}?"
+            },
+            "detail": {
+                "title": "R_pendidikan"
+            },
+            "id_r_pendidikan": "Id_r_pendidikan",
+            "uraian": "Uraian"
+        }
+    }
+}

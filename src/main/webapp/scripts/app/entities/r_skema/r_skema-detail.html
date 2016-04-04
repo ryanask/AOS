@@ -1,0 +1,54 @@
+
+<div>
+    <h2><span translate="aplikasiApp.r_skema.detail.title">R_skema</span> {{r_skema.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="aplikasiApp.r_skema.id_r_skema">Id_r_skema</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{r_skema.id_r_skema}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="aplikasiApp.r_skema.uraian">Uraian</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{r_skema.uraian}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="aplikasiApp.r_skema.max_plafon">Max_plafon</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{r_skema.max_plafon}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="aplikasiApp.r_skema.max_tenor">Max_tenor</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{r_skema.max_tenor}}</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>
