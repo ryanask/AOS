@@ -7,7 +7,7 @@ angular.module('aplikasiApp')
                 parent: 'entity',
                 url: '/r_status_rekenings',
                 data: {
-                    authorities: ['ROLE_USER'],
+                    authorities: ['ROLE_ADMIN'],
                     pageTitle: 'aplikasiApp.r_status_rekening.home.title'
                 },
                 views: {
@@ -28,7 +28,7 @@ angular.module('aplikasiApp')
                 parent: 'entity',
                 url: '/r_status_rekening/{id}',
                 data: {
-                    authorities: ['ROLE_USER'],
+                    authorities: ['ROLE_ADMIN'],
                     pageTitle: 'aplikasiApp.r_status_rekening.detail.title'
                 },
                 views: {
@@ -51,7 +51,7 @@ angular.module('aplikasiApp')
                 parent: 'r_status_rekening',
                 url: '/new',
                 data: {
-                    authorities: ['ROLE_USER'],
+                    authorities: ['ROLE_ADMIN'],
                 },
                 onEnter: ['$stateParams', '$state', '$uibModal', function($stateParams, $state, $uibModal) {
                     $uibModal.open({
@@ -78,7 +78,7 @@ angular.module('aplikasiApp')
                 parent: 'r_status_rekening',
                 url: '/{id}/edit',
                 data: {
-                    authorities: ['ROLE_USER'],
+                    authorities: ['ROLE_ADMIN'],
                 },
                 onEnter: ['$stateParams', '$state', '$uibModal', function($stateParams, $state, $uibModal) {
                     $uibModal.open({
@@ -101,7 +101,7 @@ angular.module('aplikasiApp')
                 parent: 'r_status_rekening',
                 url: '/{id}/delete',
                 data: {
-                    authorities: ['ROLE_USER'],
+                    authorities: ['ROLE_ADMIN'],
                 },
                 onEnter: ['$stateParams', '$state', '$uibModal', function($stateParams, $state, $uibModal) {
                     $uibModal.open({

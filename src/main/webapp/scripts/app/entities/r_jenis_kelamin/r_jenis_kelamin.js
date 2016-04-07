@@ -7,7 +7,7 @@ angular.module('aplikasiApp')
                 parent: 'entity',
                 url: '/r_jenis_kelamins',
                 data: {
-                    authorities: ['ROLE_USER'],
+                    authorities: ['ROLE_ADMIN'],
                     pageTitle: 'aplikasiApp.r_jenis_kelamin.home.title'
                 },
                 views: {
@@ -28,7 +28,7 @@ angular.module('aplikasiApp')
                 parent: 'entity',
                 url: '/r_jenis_kelamin/{id}',
                 data: {
-                    authorities: ['ROLE_USER'],
+                    authorities: ['ROLE_ADMIN'],
                     pageTitle: 'aplikasiApp.r_jenis_kelamin.detail.title'
                 },
                 views: {
@@ -51,7 +51,7 @@ angular.module('aplikasiApp')
                 parent: 'r_jenis_kelamin',
                 url: '/new',
                 data: {
-                    authorities: ['ROLE_USER'],
+                    authorities: ['ROLE_ADMIN'],
                 },
                 onEnter: ['$stateParams', '$state', '$uibModal', function($stateParams, $state, $uibModal) {
                     $uibModal.open({
@@ -78,7 +78,7 @@ angular.module('aplikasiApp')
                 parent: 'r_jenis_kelamin',
                 url: '/{id}/edit',
                 data: {
-                    authorities: ['ROLE_USER'],
+                    authorities: ['ROLE_ADMIN'],
                 },
                 onEnter: ['$stateParams', '$state', '$uibModal', function($stateParams, $state, $uibModal) {
                     $uibModal.open({
@@ -101,7 +101,7 @@ angular.module('aplikasiApp')
                 parent: 'r_jenis_kelamin',
                 url: '/{id}/delete',
                 data: {
-                    authorities: ['ROLE_USER'],
+                    authorities: ['ROLE_ADMIN'],
                 },
                 onEnter: ['$stateParams', '$state', '$uibModal', function($stateParams, $state, $uibModal) {
                     $uibModal.open({
